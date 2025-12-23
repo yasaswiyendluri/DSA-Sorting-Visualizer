@@ -16,4 +16,6 @@ body {
     width: 20px;
     margin: 0 2px;
     background-color: steelblue;
+    transition: height 0.2s ease;
+
 }
