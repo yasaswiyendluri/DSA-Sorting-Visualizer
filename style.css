@@ -1,21 +1,52 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
     text-align: center;
-    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#controls {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #69a6d2;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+}
+
+.slider {
+    margin-top: 15px;
 }
 
 #array-container {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 300px;
-    margin-top: 30px;
+    height: 320px;
+    gap: 3px;
 }
+
+
 
 .bar {
-    width: 20px;
-    margin: 0 2px;
+    width: 18px;
     background-color: steelblue;
     transition: height 0.2s ease;
-
 }
+

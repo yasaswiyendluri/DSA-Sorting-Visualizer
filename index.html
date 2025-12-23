@@ -10,9 +10,14 @@
     <h1>DSA Sorting Visualizer</h1>
 
     <div id="controls">
-        <button>Generate Array</button>
-        <button>Bubble Sort</button>
-        <button>Merge Sort</button>
+        <button id="generate">Generate Array</button>
+        <button id="bubble">Bubble Sort</button>
+        <button id="merge">Merge Sort</button>
+
+        <div class="slider">
+            <label for="speed">Speed</label>
+            <input type="range" id="speed" min="10" max="300" value="100">
+        </div>
     </div>
 
     <div id="array-container"></div>
